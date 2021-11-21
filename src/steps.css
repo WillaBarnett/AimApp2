@@ -1,0 +1,91 @@
+
+.tagline{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+
+    background-color: blanchedalmond;
+
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.steps-body{
+    background-color: blanchedalmond;
+    display: flex;
+    font-style: normal;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    
+    padding-bottom: 50px;
+}
+
+
+.left-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    
+    }
+
+
+
+.left-body img{
+    height: 30px;
+    width: 30px;
+    transform: rotate(270deg);
+
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    /* transform: rotate(270deg); */
+    font-size: 50px;
+}
+
+.steps-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.step1, .step2, .step3{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.step1 img{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.step2 img{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+.step3 img{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+}
+
+.lets-go-button{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 30px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+
+}

@@ -1,0 +1,13 @@
+.component-footer{
+    
+
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color:  #8c59c4;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+
+}

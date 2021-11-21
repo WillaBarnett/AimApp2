@@ -1,0 +1,82 @@
+
+
+.component-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    padding: 20px;
+    background-color: #8c59c4;
+   
+    position: relative;
+    font-weight: normal;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    color: black;
+   
+    gap: 400px;
+
+    border-bottom: 5px solid black;
+    text-decoration: none;
+    
+  }
+  
+  .header-title{
+    
+    background-color:  #8c59c4;
+    
+   
+   
+    color:blanchedalmond;
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+  }
+  
+  .header-title p{
+    margin: 5px;
+  }
+
+  .title-image{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: baseline;
+
+  }
+  .title-image img{
+    height: 50px;
+    width: 50px;
+}
+
+
+  .header-subtitle{
+    font-size: 13px;
+    padding-left: 7px;
+  }
+  
+  .header-menu{
+    padding: 10px;
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+
+  .header-menu img{
+      height: 40px;
+      width: 40px;
+  }
+
+  
